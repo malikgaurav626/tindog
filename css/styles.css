@@ -1,0 +1,23 @@
+#Chihuahua{
+    border:2px solid rgb(225, 223, 223);
+    transition: 0.1s ease-in;
+}
+#Chihuahua:hover{
+    border:2px solid #0d6efd;
+    transition: 0.1s ease-out;
+}
+#Labrador
+{
+    border:2px solid rgb(225, 223, 223);
+    transition: 0.1s ease-in;
+}
+#Labrador:hover{
+    border:2px solid black;
+    transition: 0.1s ease-out;
+}
+#mastiff{
+    border:2px solid rgb(225, 223, 223);
+}
+#mastiff:hover{
+    border:2px solid #dc3545;
+}
