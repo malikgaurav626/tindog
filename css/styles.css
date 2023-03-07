@@ -1,3 +1,11 @@
+@font-face{
+    font-family: bayland;
+    src: url(fonts/Bayland\ Regular.ttf);
+}
+@font-face{
+    font-family: baylande;
+    src: url(fonts/Bayland\ Extrude.ttf);
+}
 #Chihuahua{
     border:2px solid rgb(225, 223, 223);
     transition: 0.1s ease-in;
@@ -11,6 +19,7 @@
     border:2px solid rgb(225, 223, 223);
     transition: 0.1s ease-in;
 }
+
 #Labrador:hover{
     border:2px solid black;
     transition: 0.1s ease-out;
@@ -21,3 +30,19 @@
 #mastiff:hover{
     border:2px solid #dc3545;
 }
+#heading-id{
+    position: relative;
+    font-family: 'tilt warp';
+    font-weight: bold;
+    color: #dc3545;
+}
+
+/*
+.psuedo{
+    position: absolute;
+    left:75px;
+    top: 230px;
+    z-index: -1;
+    font-family: baylande;
+    color: #dc3545;
+} */
