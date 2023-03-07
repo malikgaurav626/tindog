@@ -66,6 +66,9 @@
     background-color: green;
     transition: 0.2s ease-in;
 }
+#press{
+    margin-left:8%;
+}
 #thirdone:hover{
     /* border: 2px solid black;
     background-color: black; */
