@@ -51,12 +51,10 @@
       <div class="row">
         <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-md-5 align-self-center pt-3 pb-3">
           <h1 id="heading-id">Meet <span class="text-primary">new</span> and <span class="text-dark">interesting</span> dogs nearby.
-          <!-- <h1 class="psuedo">Meet <span class="text-primary">new</span> and <span class="text-dark">interesting</span><br> dogs nearby.
-          </h1> -->
           </h1>
         </div>
         <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-md-5 align-self-lg-center pt-3 pb-3">
-          <img src="images/iphone6.png" style="width: 45%;" alt="iphone-mockup" />
+          <img src="images/iphone6.png" style="width: 45%;" alt="iphone-mockup" id="iphone-id"/>
         </div>
         <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-md-5 align-self-lg-center pt-3 pb-3">
           <button class="btn btn-success" type="button">Download v1.34 <sub>(stable)</sub></button> &nbsp;
@@ -91,8 +89,8 @@
   <section id="testimonials">
 
     <div class="row pt-3 pb-3 rounded text-white bg-danger" style="scale: 0.9;">
-      <div class="col-md-6 d-flex align-self-center pt-3 pb-3 ps-5">
-        <h2>
+      <div class="col-md-6 d-flex align-self-center pt-3 pb-3">
+        <h2 id="testimonials-heading">
           I no longer have to sniff other dogs for love. I've found the hottest
           Corgi on <em>TinDog. Woof.</em>
         </h2>
@@ -112,16 +110,16 @@
 
   <section id="press">
     <div class="row" style="scale: 0.9;">
-      <div class=" mt-5 col-md-6 col-lg-4 d-flex align-self-center">
+      <div class=" mt-5 col-md-6 col-lg-4" id="techcrunch-id">
         <img src="images/TechCrunch.png" alt="tc-logo" />
       </div>
-      <div class=" mt-5 col-md-6 col-lg-4 d-flex align-self-center">
+      <div class=" mt-5 col-md-6 col-lg-4"  id="tnw-id">
         <img src="images/tnw.png" style="scale:0.6;" alt="tnw-logo" />
       </div>
-      <div class=" mt-5 col-md-6 col-lg-4 d-flex align-self-center">
+      <div class=" mt-5 col-md-6 col-lg-4" id="biz-id">
         <img src="images/bizinsider.png" alt="biz-insider-logo" />
       </div>
-      <div class="col mt-5">
+      <div class="col-md-6 mt-5 me-5" id="mas-id">
         <img src="images/mashable.png" style="scale: 0.6;" alt="mashable-logo" />
       </div>
     </div>
@@ -139,7 +137,7 @@
       </div>
     </div>
 
-    <div class="row" style="scale: 0.9;">
+    <div class="row" style="scale: 0.9;" id="pricing-id">
       <div class="col">
         <div class="card shadow-lg rounded-3" id="Chihuahua">
           <h3 class="card-header bg-primary text-white" style="text-align: center;">Chihuahua</h3>
@@ -181,13 +179,13 @@
 
   <section id="cta" class="mt-5">
     <div class="row bg-danger text-white rounded-3 pt-5 pb-5 mt-5 mb-5" style="scale:0.9;">
-      <div class="col d-flex justify-content-center">
-        <h3>Find the True Love of Your Dog's Life Today.</h3>
+      <div class="col-md-6 d-flex justify-content-center">
+        <h3 id="footing-id">Find the True Love of Your Dog's Life Today.</h3>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col-md-6 d-flex justify-content-center">
         <div class="btn-group">
           <button class="btn btn-primary" type="button">Download v1.34 <sub>(stable)</sub></button>&nbsp;
-          <button class="btn bg-white text-danger" type="button">Previous Versions</button>
+          <button class="btn btn-light text-danger" type="button">Previous Versions</button>
         </div>
       </div>
     </div>
@@ -196,6 +194,9 @@
   <!-- Footer -->
 
   <footer class="card-footer bg-danger text-white" style="text-align: center;" id="footer">
+    <div class="container align-items-center">
+      <img src="https://cdn-icons-png.flaticon.com/512/725/725372.png" alt="twitter icon footer" id="footer-twitter">
+    </div>
     <p>© Copyright TinDog</p>
   </footer>
 
